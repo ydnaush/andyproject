@@ -215,6 +215,7 @@ nav a {
     -ms-transition: 0.5s all;
 }
 
+
 ul.menu li {
     width: 15%;
     text-align: center;
@@ -243,7 +244,14 @@ nav ul li ul li a:hover {
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
 }
-
+/* .menu.active{
+    color: #FF5722;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+} */
 /* Hide Dropdowns by Default
  * and giving it a position of absolute */
 nav ul ul {
@@ -405,7 +413,6 @@ a.reqe-button {
         -o-transition: 0.5s all;
         -ms-transition: 0.5s all;
     }
-
     .toggle.toggle-drop:hover {
         color: #FF5722;
         transition: 0.5s all;
@@ -512,7 +519,7 @@ a.reqe-button {
     nav ul ul li a {
         color: #000;
     }
-}
+    }
 
 /*-- dropdown --*/
 #demo {
@@ -1333,6 +1340,10 @@ p.footer-para {
     -ms-transition: 0.5s all;
     margin: 0 auto;
 }
+.img-fluid {
+    max-width: 70%;
+    max-height: 300px;
+}
 }
 
 @media(max-width: 1600px) {}
@@ -1431,6 +1442,10 @@ p.footer-para {
     .w3layouts-banner-info {
         padding-top: 12em;
     }
+    .img-fluid {
+    max-width: 70%;
+    max-height: 250px;
+    }
 }
 
 @media(max-width: 1024px) {
@@ -1509,7 +1524,7 @@ p.footer-para {
     }
     .img-fluid {
     max-width: 70%;
-    height: auto;
+    max-height: 250px;
     }
 
 }
